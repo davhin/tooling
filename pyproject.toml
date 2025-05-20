@@ -1,0 +1,19 @@
+[project]
+name = "tooling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "dvd.hnrchs@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "modal>=1.0.1",
+]
+
+[project.scripts]
+tooling = "tooling:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
